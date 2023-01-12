@@ -46,7 +46,7 @@ p {
     align-items: center;
     gap: 2%;
 
-    background-image: url(/images/donation13.jpg), linear-gradient(to right, rgb(214, 214, 248), rgb(151, 151, 244));
+    background-image: url(./images/donation13.jpg), linear-gradient(to right, rgb(214, 214, 248), rgb(151, 151, 244));
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
