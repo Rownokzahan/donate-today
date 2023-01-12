@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(90, 88, 88);
+}
+
+p {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-center-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    height: 80vh;
+    padding: 6%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+
+    background-image: url(/images/donation13.jpg), linear-gradient(to right, rgb(214, 214, 248), rgb(151, 151, 244));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+.banner-title {
+    font-size: 10vmin;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgb(255, 80, 80);
+    padding: 1rem;
+    font-size: large;
+    border: 0;
+    border-radius: 4px;
+}
+
+section {
+    margin: 10%;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    gap: 12px;
+}
+
+.box {
+    padding: 1rem;
+    background-color: rgb(198, 191, 191);
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.box:hover {
+    color: rgb(255, 80, 80);
+    border: 2px solid rgb(255, 80, 80);
+}
+
+.full-width-input {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin: 20px 0;
+    border: 0;
+    border-bottom: 1px solid gray;
+    font-size: large;
+}
+
+.donate-card {
+    background-color: rgb(212, 229, 245);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.flex-item {
+    width: 50%;
+}
+
+.flex-item img {
+    width: 100%;
+}
+
+form.flex-center {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 100px 0;
+    gap: 0px;
+}
+
+form input[type="text"] {
+    height: 59px;
+    background-color: rgb(226, 221, 221);
+    padding-left: 10px;
+    position: relative;
+    left: 4px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+@media screen and (max-width:576px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    .flex-center {
+        flex-direction: column;
+    }
+}
